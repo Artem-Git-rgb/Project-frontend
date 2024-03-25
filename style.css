@@ -2,26 +2,46 @@ body{
     background-color: rgb(214, 196, 185);
 }
 header{
-    background-color: rgb(212, 163, 133);
+    background-color: rgb(222, 183, 153);
     border: 2px solid rgb(0, 0, 0);
     padding-left: 25px;
     text-align: center;
 }
-div{
-    border: 1px solid rgb(0, 0, 0);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 15px;
-    margin-top: 15px;
-}
 footer{
-    background-color: rgb(212, 163, 133);
+    background-color: rgb(222, 183, 153);
     border: 2px solid rgb(0, 0, 0);
     padding-left: 25px;
     padding-bottom: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: center;
+}
+.disp2{
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+}
+aside{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    border: 1px solid rgb(0, 0, 0);
 }
 .disp{
     display: flex;
+    flex-direction: row;
+}
+.div1{
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.div2{
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
